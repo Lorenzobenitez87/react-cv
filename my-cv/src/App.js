@@ -7,6 +7,7 @@ import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import NotFound from './pages/NotFound'
 
+
 import reportWebVitals from './reportWebVitals'
 
 function App () {
@@ -14,7 +15,7 @@ function App () {
   <>
     <Router>
         <Routes>
-          <Route exact path='/' element={<Home /> } />
+          <Route exact="true" path='/' element={<Home /> } />
           <Route path='/competences' element={<Knowledges /> } />
           <Route path='/portfolio' element={<Portfolio /> } />
           <Route path='/contact' element={<Contact /> } />

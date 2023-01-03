@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './app'
 //import * as ServiceWorker from './serviceWorker'
+import './styles/styles.scss'
 
-import './style/index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(

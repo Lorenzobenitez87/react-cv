@@ -1,6 +1,6 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
-import ImageProfil from "../media/Capture3.PNG"
+import ImageProfil from "../../media/Capture3.PNG"
 
 function Navigation () {
 

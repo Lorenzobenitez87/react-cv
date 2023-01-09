@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
 
 export default class Project extends Component {
 
@@ -11,7 +11,7 @@ export default class Project extends Component {
     }
 
     render() {
-        let { name, languagesIcons, source, info, picture } = this.props.item;
+        let { name, languagesIcons, source, info, picture } = this.props.item
 
 
         return (
@@ -35,7 +35,7 @@ export default class Project extends Component {
                                     <h2>{name}</h2>
                                     <div className="sourceCode">
                                         <a href={source} rel="nooperner noreferrer"
-                                        className="button" target="_blank">Code source</a>
+                                            className="button" target="_blank">Code source</a>
 
                                     </div>
                                 </div>

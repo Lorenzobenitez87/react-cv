@@ -1,8 +1,8 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
-import ImageProfil from "../../media/Capture3.PNG"
+import ImageProfil from "../../media/billGates.jpg"
 
-function Navigation () {
+function Navigation() {
 
     return (
         <div className="sidebar">
@@ -12,66 +12,66 @@ function Navigation () {
                     <h3>Lorenzo Benitez</h3>
                 </div>
             </div>
-            
+
             <div className="navigation">
                 <ul>
                     <li>
-                   <NavLink exact="true" to="/" activeclassname="active">
-                    <i className="fas fa-home"></i>
-                    <span>Accueil</span>
-                    </NavLink>
-                    </li> 
+                        <NavLink exact="true" to="/" activeclassname="active">
+                            <i className="fas fa-home"></i>
+                            <span>Accueil</span>
+                        </NavLink>
+                    </li>
 
                     <li>
-                   <NavLink exact="true" to="/competences" activeclassname="active">
-                    <i className="fas fa-mountain"></i>
-                    <span>Compétences</span>
-                    </NavLink>
-                    </li> 
+                        <NavLink exact="true" to="/competences" activeclassname="active">
+                            <i className="fas fa-mountain"></i>
+                            <span>Compétences</span>
+                        </NavLink>
+                    </li>
 
                     <li>
-                   <NavLink exact="true" to="/portfolio" activeclassname="active">
-                    <i className="fas fa-images"></i>
-                    <span>Portfolio</span>
-                    </NavLink>
-                    </li> 
+                        <NavLink exact="true" to="/portfolio" activeclassname="active">
+                            <i className="fas fa-images"></i>
+                            <span>Portfolio</span>
+                        </NavLink>
+                    </li>
 
                     <li>
-                   <NavLink exact="true" to="/contact" activeclassname="active">
-                    <i className="fas fa-address-book"></i>
-                    <span>Contact</span>
-                    </NavLink>
-                    </li> 
+                        <NavLink exact="true" to="/contact" activeclassname="active">
+                            <i className="fas fa-address-book"></i>
+                            <span>Contact</span>
+                        </NavLink>
+                    </li>
                 </ul>
             </div>
 
             <div className="socialNetwork">
                 <ul>
                     <li>
-                        <a href="https://www.google.com" target="_blank"
-                        rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/lorenzo-benitez-b3664723b/" target="_blank"
+                            rel="noopener noreferrer">
                             <i className="fab fa-linkedin"></i></a>
                     </li>
 
                     <li>
-                        <a href="https://www.google.com" target="_blank"
-                        rel="noopener noreferrer">
+                        <a href="https://github.com/Lorenzobenitez87" target="_blank"
+                            rel="noopener noreferrer">
                             <i className="fab fa-github"></i></a>
                     </li>
 
                     <li>
-                        <a href="https://www.google.com" target="_blank"
-                        rel="noopener noreferrer">
+                        <a href="https://twitter.com/LORENZO280187" target="_blank"
+                            rel="noopener noreferrer">
                             <i className="fab fa-twitter"></i></a>
                     </li>
 
                     <li>
-                        <a href="https://www.google.com" target="_blank"
-                        rel="noopener noreferrer">
+                        <a href="https://codepen.io/Lorenzobenitez87" target="_blank"
+                            rel="noopener noreferrer">
                             <i className="fab fa-codepen"></i></a>
                     </li>
                 </ul>
-                
+
                 <div className="signature">
                     <p>fromLorenzoBenitez - 2023</p>
                 </div>
@@ -79,7 +79,7 @@ function Navigation () {
 
         </div>
 
-        
+
     )
 }
 

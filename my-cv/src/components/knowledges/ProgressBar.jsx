@@ -1,7 +1,7 @@
 import React from "react";
 
-function ProgressBar (props) {
-    return(
+function ProgressBar(props) {
+    return (
         <div className={props.className}>
             <h3>{props.title}</h3>
             <div className="years">
@@ -15,10 +15,10 @@ function ProgressBar (props) {
                     props.languages.map((item) => {
                         let xpYears = 2;
                         let progressBar = item.xp / xpYears * 100 + '%';
-                        return(
+                        return (
                             <div key={item.id} className="languagesList">
                                 <li>{item.value}</li>
-                                <div className="progressBar" style={{width:progressBar}}></div>
+                                <div className="progressBar" style={{ width: progressBar }}></div>
                             </div>
                         )
                     })

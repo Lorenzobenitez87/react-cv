@@ -8,7 +8,7 @@ function Portfolio() {
         <div className="portfolio">
             <Navigation />
             <ProjectList />
-            
+
         </div>
     )
 }

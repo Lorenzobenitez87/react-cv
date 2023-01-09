@@ -17,14 +17,14 @@ function OtherSkills() {
                         _Méthodes agiles</li>
                 </ul>
                 <ul>
-                <li><i className="fas fa-check-square"></i>
+                    <li><i className="fas fa-check-square"></i>
                         _Figma</li>
-                        <li><i className="fas fa-check-square"></i>
+                    <li><i className="fas fa-check-square"></i>
                         _UI/UX Design</li>
-                        <li><i className="fas fa-check-square"></i>
+                    <li><i className="fas fa-check-square"></i>
                         _Photoshop</li>
-                        <li><i className="fas fa-check-square"></i>
-                        _Montage Vidéo</li> 
+                    <li><i className="fas fa-check-square"></i>
+                        _Montage Vidéo</li>
                 </ul>
             </div>
         </div>

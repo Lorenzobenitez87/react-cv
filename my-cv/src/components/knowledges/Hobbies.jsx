@@ -18,7 +18,7 @@ function Hobbies() {
                     <span> Permaculture</span>
                 </li>
                 <li className="hobby">
-                    <i className="fas fa-bitcoin"></i>
+                    <i className="fab fa-bitcoin"></i>
                     <span> Crypto-monnaies</span>
                 </li>
                 <li className="hobby">

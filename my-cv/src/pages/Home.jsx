@@ -11,7 +11,7 @@ function Home() {
                     <h1> Lorenzo Benitez</h1>
                     <h2>Développeur Front-end</h2>
                     <div className="pdf">
-                        <a href="./media/Capture3.PNG" target="_blank">
+                        <a href="./media/CV_DeveloppeurWeb.pdf" target="_blank">
                             Télécharger CV</a>
                     </div>
                 </div>

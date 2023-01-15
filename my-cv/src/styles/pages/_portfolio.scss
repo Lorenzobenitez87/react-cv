@@ -88,7 +88,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 10px;
-
+    
     .project {
       background: $color-2;
       border-radius: $borderRadius;
@@ -101,18 +101,18 @@
       display: grid;
       grid-template-rows: 15% 15% 55% 15%;
       grid-template-areas:
-        "1"
-        "2"
+      "1"
+      "2"
         "3"
         "4";
     }
-
+    
     .icons {
       grid-area: 1;
       display: flex;
       justify-content: center;
       @include verticalCenter;
-
+      
       i {
         font-size: 1.4rem;
         padding: 0 .35rem;
@@ -120,14 +120,16 @@
         text-shadow: 0 0px 1px $color-1;
       }
     }
-
+    
     h3 {
       grid-area: 2;
       font-family: $font-2;
       font-size: 1.65rem;
       @include verticalCenter;
       justify-content: left;
-
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
     }
 
     img {
@@ -223,7 +225,7 @@
   }
 }
 
-@media (max-width: 650px) and (min-width: 521px) {
+@media (max-width: 650px) and (min-width: 531px) {
   .portfolioContent {
     .project {
       width: 49% !important;
@@ -239,17 +241,20 @@
   }
 }
 
-@media (max-width: 520px) {
-  .radioDisplay {
-    display: none !important;
-  }
+@media (max-width: 530px) {
 
   .portfolioContent {
     grid-template-rows: 1fr !important;
 
-    .project {
+  .radioDisplay {
+    display: none !important;
+  }
+
+
+    .projects .project {
       grid-template-rows: 30px 40px 80px 40px !important;
       width: 98% !important;
+      height: 200px;
 
       img {
         height: 100% !important;

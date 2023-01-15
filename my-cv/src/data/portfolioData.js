@@ -62,4 +62,13 @@ export const portfolioData = [
         info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
         picture: './media/project-shiny.png'
       },
+      {
+        id: 8,
+        name: 'Curriculum vitae',
+        languages: ['react','javascript', 'sass'],
+        languagesIcons: ['fab fa-react','fab fa-js','fab fa-sass'],
+        source: 'https://github.com/Lorenzobenitez87/react-cv.git',
+        info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
+        picture: './media/project-react-cv.png'
+      },
   ]
